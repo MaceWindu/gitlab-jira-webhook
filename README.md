@@ -10,9 +10,9 @@ In Jira it looks like this:
 A merge request is linked to every issue key (`PROJ-123`) found in its source branch, title or
 description. Each link is updated in place whenever the merge request or its pipeline changes.
 
-This is a modernized fork of [DracoBlue/gitlab-jira-webhook](https://github.com/DracoBlue/gitlab-jira-webhook):
-Node 24, current GitLab and Jira Cloud APIs, no crash on API errors, verified TLS. See
-[docs/DESIGN.md](docs/DESIGN.md) for how it works and what changed.
+Version 2 is a modernization: Node 24, current GitLab and Jira Cloud APIs, no crash on API errors,
+verified TLS. See [docs/DESIGN.md](docs/DESIGN.md) for how it works and what changed, and
+[Upgrading from 1.x](#upgrading-from-1x) below.
 
 ## Quick start
 
@@ -69,5 +69,5 @@ $ npm run dev       # restarts on changes, reads .env
 
 ## License
 
-Originally written by DracoBlue (<http://dracoblue.net>). Licensed under the terms of the MIT
+This work is copyright by DracoBlue (<http://dracoblue.net>) and licensed under the terms of MIT
 License, see [LICENSE](LICENSE).

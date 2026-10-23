@@ -16,7 +16,7 @@ ENV APP_VERSION=$APP_VERSION
 
 LABEL org.opencontainers.image.title="gitlab-jira-webhook" \
       org.opencontainers.image.description="Shows GitLab merge requests as remote links on Jira issues" \
-      org.opencontainers.image.source="https://github.com/MaceWindu/gitlab-jira-webhook" \
+      org.opencontainers.image.source="https://github.com/DracoBlue/gitlab-jira-webhook" \
       org.opencontainers.image.licenses="MIT" \
       org.opencontainers.image.version="$APP_VERSION" \
       org.opencontainers.image.revision="$VCS_REF"

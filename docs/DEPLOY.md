@@ -38,7 +38,7 @@ reading users and writing issue remote links.
 ## 2. Copy the deploy kit to the server
 
 ```console
-$ git clone https://github.com/MaceWindu/gitlab-jira-webhook.git /opt/gitlab-jira-webhook
+$ git clone https://github.com/DracoBlue/gitlab-jira-webhook.git /opt/gitlab-jira-webhook
 $ cd /opt/gitlab-jira-webhook/deploy
 $ cp app.env.example app.env
 $ cp deploy.env.example deploy.env
